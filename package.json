@@ -1,0 +1,14 @@
+{
+  "name": "multi-agent-obsidian-workspace",
+  "version": "1.0.0",
+  "description": "Synchronized rules, MCP vault wiring, and Obsidian vault split tools for Antigravity, Codex, and Claude Code.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "setup": "node scripts/setup-multi-agent-vault.mjs",
+    "test": "node --test tests/setup.test.mjs"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

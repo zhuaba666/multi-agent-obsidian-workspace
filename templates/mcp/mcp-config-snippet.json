@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "zcode_vault": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/path/to/your/obsidian/main-vault"
+      ]
+    }
+  }
+}
